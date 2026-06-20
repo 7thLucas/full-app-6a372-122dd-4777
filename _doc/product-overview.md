@@ -1,4 +1,4 @@
-# Product Overview — StrategyForge AI *(Working Title)*
+# Product Overview — ForgeRealms
 
 ## What It Is
 An AI-powered, no-code game development platform purpose-built for the multiplayer strategy genre. The platform orchestrates a full suite of AI tools to generate, configure, and deploy real multiplayer strategy games — not wrappers or reskins — complete with persistent game worlds, live player interaction, and genre-authentic mechanics. One platform. Zero code. Actual games.
