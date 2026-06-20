@@ -1,0 +1,1 @@
+I want an Ai that can build app games(not a wrap of a game,but actual game)with every Ai tool to do it. a one source game development.  with map templates of games like mobile strike, kings of Avalon, throne kingdom at war. so easy a 5 year old can develop multi-player strategy games
