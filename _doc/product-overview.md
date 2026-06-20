@@ -47,4 +47,4 @@ A single-source AI game development studio that:
 5. **Child-simple UX** — if a 5-year-old cannot navigate it, the interface fails
 
 ## App Name
-Working title: **StrategyForge AI** *(to be confirmed during onboarding)*
+**ForgeRealms**
