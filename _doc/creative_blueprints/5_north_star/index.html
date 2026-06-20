@@ -26,45 +26,49 @@
     <!-- WVO Formula + Value per operation -->
     <div class="flex-1 grid gap-4" style="grid-template-columns:1fr 1fr;">
 
-      <!-- WVO Projection (degraded — no volume data in overview) -->
+      <!-- WVO Projection -->
       <div class="rounded-2xl p-6 flex flex-col" style="background:#f8fafc;border:1.5px solid #e2e8f0;">
         <div class="text-xs font-bold tracking-widest uppercase mb-4" style="color:#1e2a4a;">Weekly Verified Operations (WVO)</div>
         <div class="flex flex-col gap-2 mb-4">
           <div class="flex items-center justify-between gap-2 p-3 rounded-xl" style="background:#fff7ed;border:1px solid #fed7aa;">
-            <span class="text-xs font-semibold" style="color:#92400e;">Active creators on platform</span>
-            <span class="text-xs px-2 py-1 rounded-full font-bold flex-shrink-0" style="background:#fef3c7;color:#92400e;">Assumption — fill this in</span>
+            <span class="text-xs font-semibold" style="color:#92400e;">500 active creators on platform</span>
+            <span class="text-xs px-2 py-1 rounded-full font-bold flex-shrink-0" style="background:#fef3c7;color:#92400e;">Assumption — adjust this</span>
           </div>
           <div class="text-center text-sm font-bold" style="color:#94a3b8;">×</div>
           <div class="flex items-center justify-between gap-2 p-3 rounded-xl" style="background:#fff7ed;border:1px solid #fed7aa;">
-            <span class="text-xs font-semibold" style="color:#92400e;">% who deploy a game per week</span>
-            <span class="text-xs px-2 py-1 rounded-full font-bold flex-shrink-0" style="background:#fef3c7;color:#92400e;">Assumption — fill this in</span>
+            <span class="text-xs font-semibold" style="color:#92400e;">0.5 games published per creator / month</span>
+            <span class="text-xs px-2 py-1 rounded-full font-bold flex-shrink-0" style="background:#fef3c7;color:#92400e;">Assumption — adjust this</span>
           </div>
-          <div class="text-center text-sm font-bold" style="color:#94a3b8;">=</div>
+          <div class="text-center text-sm font-bold" style="color:#94a3b8;">÷ 4 weeks =</div>
           <div class="flex items-center justify-between p-3 rounded-xl" style="background:#dbeafe;border:1px solid #bfdbfe;">
             <span class="text-xs font-bold" style="color:#1e40af;">Weekly Games Deployed</span>
-            <span class="font-black text-xl" style="color:#1e40af;">—</span>
+            <span class="font-black text-2xl" style="color:#1e40af;">62</span>
           </div>
         </div>
-        <p class="text-xs italic mt-auto" style="color:#94a3b8;">Projected impact — based on your inputs. Add your creator count to complete this projection.</p>
+        <p class="text-xs italic mt-auto" style="color:#94a3b8;">Projected impact — based on your inputs. Adjust the assumption chips with your real numbers.</p>
       </div>
 
-      <!-- Value per operation -->
+      <!-- Value per operation + totals -->
       <div class="rounded-2xl p-6 flex flex-col" style="background:#f8fafc;border:1.5px solid #e2e8f0;">
         <div class="text-xs font-bold tracking-widest uppercase mb-4" style="color:#1e2a4a;">Value Per Deployed Game</div>
         <div class="flex flex-col gap-2 mb-4">
           <div class="p-3 rounded-xl" style="background:#fff7ed;border:1px solid #fed7aa;">
-            <div class="text-xs font-semibold mb-1" style="color:#92400e;">Developer cost avoided</div>
-            <div class="text-sm font-bold" style="color:#1e2a4a;">$500K–$5M per title (traditional build cost)</div>
-          </div>
-          <div class="p-3 rounded-xl" style="background:#fff7ed;border:1px solid #fed7aa;">
-            <div class="text-xs font-semibold mb-1" style="color:#92400e;">Time saved</div>
-            <div class="text-sm font-bold" style="color:#1e2a4a;">2–5 years of engineering → days</div>
+            <div class="text-xs font-semibold mb-1" style="color:#92400e;">Dev time eliminated per creator</div>
+            <div class="text-sm font-mono" style="color:#1e2a4a;">6 months × $8,000/mo = <strong>$48,000 / game</strong></div>
+            <span class="text-xs px-2 py-0.5 rounded-full font-bold mt-1 inline-block" style="background:#fef3c7;color:#92400e;">Assumption — adjust this</span>
           </div>
         </div>
-        <div class="flex-1 rounded-xl p-4 flex flex-col justify-center" style="background:#1e2a4a;">
-          <div class="text-xs font-bold mb-2" style="color:#f97316;">WVO × Value = Weekly Platform Impact</div>
-          <p class="text-xs leading-relaxed" style="color:#cbd5e1;">Each game deployed represents $500K–$5M in creation cost removed from a creator's path. Fill in your creator volume above to complete the projection.</p>
-          <p class="text-xs mt-3 italic" style="color:#64748b;">Projected impact — based on your inputs. Not measured results.</p>
+        <div class="flex-1 rounded-xl p-4 flex flex-col justify-between" style="background:#1e2a4a;">
+          <div class="text-xs font-bold mb-3" style="color:#f97316;">Total Creator Value Delivered</div>
+          <div class="flex justify-between items-end mb-2">
+            <span class="text-xs" style="color:#94a3b8;">Per week</span>
+            <span class="font-black text-xl" style="color:#fff;">$2.98M</span>
+          </div>
+          <div class="flex justify-between items-end pt-2" style="border-top:1px solid rgba(255,255,255,0.12);">
+            <span class="text-xs" style="color:#94a3b8;">Annual (× 52)</span>
+            <span class="font-black text-2xl" style="color:#f97316;">$155M</span>
+          </div>
+          <p class="text-xs mt-3 italic" style="color:#475569;">62 games/wk × $48K = $2.98M/wk. Projected from inputs — not measured results.</p>
         </div>
       </div>
 
