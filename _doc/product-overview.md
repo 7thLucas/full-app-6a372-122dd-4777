@@ -14,7 +14,7 @@ Building a real multiplayer strategy game in the style of Mobile Strike, Kings o
 - Teams of 10–50 people (server architects, client engineers, game designers, artists)
 - $500K–$5M+ in production and infrastructure cost
 
-No accessible platform exists that lets a non-technical solo creator build a genre-authentic strategy game from scratch. The tools are fragmented, the knowledge is gated, and the cost is prohibitive.
+No accessible platform exists that lets a non-technical solo creator build a genre-authentic strategy game from scratch. The tools are fragmented, the knowledge is gated, and the cost is prohibitive. Crucially, the high barrier is not purely accidental — established studios have an incentive to keep the moat deep, locking indie creators out through proprietary toolchains, expensive licensing, and complexity that takes years of specialist training to navigate.
 
 ## The Solution
 A single-source AI game development studio that:
