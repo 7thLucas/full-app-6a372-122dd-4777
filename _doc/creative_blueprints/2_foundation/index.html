@@ -1,0 +1,78 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-main { width: 56%; height: 100%; }
+  .mode-landscape .sl-visual { width: 44%; height: 100%; }
+  .mode-portrait .sl-main { height: 62%; width: 100%; }
+  .mode-portrait .sl-visual { height: 38%; width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Problem + Solution -->
+    <div class="sl-main flex flex-col p-10 gap-4">
+      <div>
+        <span class="text-xs font-bold tracking-widest uppercase" style="color:#f97316;">The Opportunity</span>
+      </div>
+
+      <!-- Problem -->
+      <div class="flex-1 rounded-2xl p-7" style="background:#1e2a4a;">
+        <div class="text-xs font-bold tracking-widest uppercase mb-3" style="color:#f97316;">The Problem</div>
+        <h3 class="font-bold mb-4" style="font-size:1.2rem;color:#fff;line-height:1.35;">
+          Real strategy games take years and millions of dollars to build.
+        </h3>
+        <div class="flex flex-col gap-2">
+          <div class="flex items-start gap-3">
+            <span style="margin-top:6px;width:8px;height:8px;border-radius:50%;background:#f97316;flex-shrink:0;display:block;"></span>
+            <span class="text-sm" style="color:#cbd5e1;">2–5 years of engineering effort per title</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span style="margin-top:6px;width:8px;height:8px;border-radius:50%;background:#f97316;flex-shrink:0;display:block;"></span>
+            <span class="text-sm" style="color:#cbd5e1;">Teams of 10–50: server architects, engineers, artists, game designers</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span style="margin-top:6px;width:8px;height:8px;border-radius:50%;background:#f97316;flex-shrink:0;display:block;"></span>
+            <span class="text-sm" style="color:#cbd5e1;">$500K–$5M+ per production — inaccessible to solo creators</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span style="margin-top:6px;width:8px;height:8px;border-radius:50%;background:#f97316;flex-shrink:0;display:block;"></span>
+            <span class="text-sm" style="color:#cbd5e1;">No accessible platform exists for the strategy game genre</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Solution -->
+      <div class="flex-1 rounded-2xl p-7" style="background:#fff7ed;border:1.5px solid #fed7aa;">
+        <div class="text-xs font-bold tracking-widest uppercase mb-3" style="color:#f97316;">The Solution</div>
+        <h3 class="font-bold mb-4" style="font-size:1.2rem;color:#1e2a4a;line-height:1.35;">
+          One AI studio ships the whole game — maps, mechanics, multiplayer — for you.
+        </h3>
+        <div class="flex flex-col gap-2">
+          <div class="flex items-start gap-3">
+            <span style="margin-top:6px;width:8px;height:8px;border-radius:50%;background:#1e2a4a;flex-shrink:0;display:block;"></span>
+            <span class="text-sm" style="color:#475569;">Genre-authentic templates: Mobile Strike, Kings of Avalon, Throne Kingdom at War</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span style="margin-top:6px;width:8px;height:8px;border-radius:50%;background:#1e2a4a;flex-shrink:0;display:block;"></span>
+            <span class="text-sm" style="color:#475569;">Full AI toolchain: world gen, units, economy, multiplayer servers, balance</span>
+          </div>
+          <div class="flex items-start gap-3">
+            <span style="margin-top:6px;width:8px;height:8px;border-radius:50%;background:#1e2a4a;flex-shrink:0;display:block;"></span>
+            <span class="text-sm" style="color:#475569;">So simple a 5-year-old can build and ship a real, live multiplayer game</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right visual -->
+    <div class="sl-visual relative overflow-hidden" style="background:#0f172a;">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=a%20young%20creator%20using%20an%20AI%20game%20builder%20interface%20on%20a%20glowing%20screen%20with%20a%20fantasy%20strategy%20map%20assembling%20in%20real%20time%20kingdoms%20and%20territories%20forming%20cinematic%20digital%20art"
+        class="w-full h-full object-cover"
+        style="opacity:0.8;"
+        alt="Creator building a game with AI"
+      />
+    </div>
+
+  </div>
+</section>
