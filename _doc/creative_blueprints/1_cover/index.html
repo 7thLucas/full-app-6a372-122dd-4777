@@ -1,0 +1,47 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-content { width: 54%; height: 100%; }
+  .mode-landscape .sl-visual { width: 46%; height: 100%; }
+  .mode-portrait .sl-content { height: 58%; width: 100%; }
+  .mode-portrait .sl-visual { height: 42%; width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Content column -->
+    <div class="sl-content flex flex-col justify-between p-12 bg-white">
+      <div>
+        <div class="flex items-center gap-3 mb-8">
+          <span style="display:block;width:2rem;height:2px;background:#f97316;"></span>
+          <span class="text-xs font-bold tracking-widest uppercase" style="color:#f97316;">AI Strategy Game Studio</span>
+        </div>
+        <h1 class="font-black mb-6" style="font-size:2.75rem;color:#1e2a4a;line-height:1.06;">
+          Build a Real<br>Multiplayer<br>Strategy Game.<br>No Code.
+        </h1>
+        <p class="text-base leading-relaxed mb-8" style="color:#64748b;max-width:380px;">
+          One AI platform covers maps, mechanics, and live servers — so anyone ships a genre-authentic strategy game in days, not years.
+        </p>
+        <div class="flex flex-wrap gap-2">
+          <span class="text-xs font-semibold px-3 py-1 rounded-full" style="background:#1e2a4a;color:#fff;">Mobile Strike · KoA · TKaW</span>
+          <span class="text-xs font-semibold px-3 py-1 rounded-full" style="background:#f97316;color:#fff;">Zero Code</span>
+          <span class="text-xs font-semibold px-3 py-1 rounded-full" style="background:#fef3c7;color:#92400e;">Real Multiplayer</span>
+          <span class="text-xs font-semibold px-3 py-1 rounded-full" style="background:#dbeafe;color:#1e40af;">AI-Powered</span>
+        </div>
+      </div>
+      <data-attribution />
+    </div>
+
+    <!-- Visual column -->
+    <div class="sl-visual relative overflow-hidden" style="background:#0f172a;">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=cinematic%20aerial%20view%20of%20an%20epic%20fantasy%20strategy%20game%20map%20with%20glowing%20castle%20kingdoms%20territory%20borders%20armies%20and%20resource%20nodes%20dark%20fantasy%20game%20art"
+        class="w-full h-full object-cover"
+        style="opacity:0.85;"
+        alt="Strategy game world map"
+      />
+      <div class="absolute inset-0" style="background:linear-gradient(to right, rgba(255,255,255,0.06) 0%, transparent 30%);"></div>
+    </div>
+
+  </div>
+</section>
