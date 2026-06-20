@@ -4,8 +4,8 @@
 An AI-powered, no-code game development platform purpose-built for the multiplayer strategy genre. The platform orchestrates a full suite of AI tools to generate, configure, and deploy real multiplayer strategy games — not wrappers or reskins — complete with persistent game worlds, live player interaction, and genre-authentic mechanics. One platform. Zero code. Actual games.
 
 ## Target Users
-- **Primary:** Aspiring game creators with no coding or art background — the "5-year-old test" is the design north star: if a child can navigate it, the UX passes
-- **Secondary:** Indie game developers who want to skip infrastructure complexity and focus on game design
+- **Primary:** Indie creators — people with imagination and game vision who are blocked not by lack of ideas but by lack of technical knowledge and access; the "5-year-old test" is the design north star: if a child can navigate it, the UX passes
+- **Secondary:** Aspiring first-time game developers who want to skip the learning cliff and go straight to building
 - **Tertiary:** Small studios prototyping or launching strategy game titles fast
 
 ## The Problem
