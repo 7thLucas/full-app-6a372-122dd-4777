@@ -26,7 +26,9 @@ A single-source AI game development studio that:
 ## Key Features
 - **Map Template Library** — Three launch templates: **Iron Throne** (kingdom siege / base-building), **Steel Dominion** (territory control), **Void Ascendancy** (dark-fantasy conquest) — each modeled on proven genre archetypes (Mobile Strike, Kings of Avalon, Throne Kingdom at War)
 - **AI World Generator** — AI-authored terrain, resources, faction zones, and strategic chokepoints; unique game worlds generated on demand
-- **Unit & Building Designer** — AI-generated unit stats, artwork, and ability sets; fully customizable, no art skills required
+- **Faction Library** — A growing catalog of ready-made faction archetypes spanning a theme spectrum (bright, kid-friendly factions through gritty hardcore war factions) and an era range (medieval knights through futuristic troops and vehicles), so creators pick a vibe and instantly field a fitting army
+- **Four-Role Troop System** — Every faction, regardless of theme or era, is built on a shared combat backbone of four unit roles — **Cavalry, Ranged, Infantry, Siege** — the rule set that keeps any faction balanced and battle-ready against any other
+- **Unit & Building Designer** — AI-generated unit stats, artwork, and ability sets mapped onto the four-role troop system; fully customizable, no art skills required
 - **Multiplayer Infrastructure** — Server orchestration, real-time synchronization, player matchmaking — fully managed, zero DevOps required
 - **AI Balance Engine** — Automated game balance tuning driven by playtesting simulation; AI tunes unit stats and economy curves before any player sees them
 - **In-Game Economy Designer** — Resource loops, progression curves, and reward systems designed and tuned by AI
