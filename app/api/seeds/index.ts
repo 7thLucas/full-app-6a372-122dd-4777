@@ -2,8 +2,17 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { readdir } from "node:fs/promises";
 import { createLogger } from "~/lib/logger";
+import { seedFactions } from "~/features/factions/factions.seed";
 
 const logger = createLogger("Seed");
+
+/**
+ * Explicit feature seeds that live under app/features/* (outside the
+ * app/modules/* auto-discovery scan). Registered here so they run on startup.
+ */
+const featureSeeds: Array<{ name: string; run: () => Promise<void> | void }> = [
+  { name: "seedFactions", run: seedFactions },
+];
 
 type SeedFunction = () => Promise<void> | void;
 type SeedModule = Record<string, unknown> & {
@@ -99,6 +108,11 @@ export async function runSeeds(): Promise<void> {
 
     for (const seed of seeds) {
       logger.info(`Running seed ${seed.exportName} from ${path.relative(process.cwd(), seed.filePath)}`);
+      await seed.run();
+    }
+
+    for (const seed of featureSeeds) {
+      logger.info(`Running feature seed ${seed.name}`);
       await seed.run();
     }
 
