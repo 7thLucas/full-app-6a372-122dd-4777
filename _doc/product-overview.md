@@ -24,7 +24,7 @@ A single-source AI game development studio that:
 4. Ships **real deployable multiplayer games** with persistent state, real-time player interaction, alliances, resource systems, and combat mechanics
 
 ## Key Features
-- **Map Template Library** — Pre-built game world templates: base-building, kingdom siege, and territory control — modeled on proven genre archetypes (Mobile Strike, Kings of Avalon, Throne Kingdom at War)
+- **Map Template Library** — Three launch templates: **Iron Throne** (kingdom siege / base-building), **Steel Dominion** (territory control), **Void Ascendancy** (dark-fantasy conquest) — each modeled on proven genre archetypes (Mobile Strike, Kings of Avalon, Throne Kingdom at War)
 - **AI World Generator** — AI-authored terrain, resources, faction zones, and strategic chokepoints; unique game worlds generated on demand
 - **Unit & Building Designer** — AI-generated unit stats, artwork, and ability sets; fully customizable, no art skills required
 - **Multiplayer Infrastructure** — Server orchestration, real-time synchronization, player matchmaking — fully managed, zero DevOps required
