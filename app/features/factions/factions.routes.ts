@@ -11,7 +11,7 @@ const logger = createLogger("Factions");
  * GET /api/troop-roles
  * The four-role troop system with base stats and counter relationships.
  */
-router.get("/api/troop-roles", async (_req: Request, res: Response) => {
+router.get("/troop-roles", async (_req: Request, res: Response) => {
   try {
     const roles = await TroopRoleModel.find().sort({ createdAt: 1 }).lean();
     return res.json({ success: true, data: roles });
@@ -26,7 +26,7 @@ router.get("/api/troop-roles", async (_req: Request, res: Response) => {
  * The faction library — themed archetypes, each with 4 role-mapped units.
  * Optional query filters: ?tone=kid-friendly&era=medieval
  */
-router.get("/api/factions", async (req: Request, res: Response) => {
+router.get("/factions", async (req: Request, res: Response) => {
   try {
     const { tone, era } = req.query as { tone?: string; era?: string };
     const filter: Record<string, string> = {};
@@ -45,7 +45,7 @@ router.get("/api/factions", async (req: Request, res: Response) => {
  * GET /api/factions/:key
  * A single faction by its slug key.
  */
-router.get("/api/factions/:key", async (req: Request, res: Response) => {
+router.get("/factions/:key", async (req: Request, res: Response) => {
   try {
     const faction = await FactionModel.findOne({ key: req.params.key }).lean();
     if (!faction) {
@@ -63,7 +63,7 @@ router.get("/api/factions/:key", async (req: Request, res: Response) => {
  * Visual skins (e.g. Silly Zombies) that can be applied over any faction's
  * units WITHOUT changing role stats.
  */
-router.get("/api/skins", async (_req: Request, res: Response) => {
+router.get("/skins", async (_req: Request, res: Response) => {
   try {
     const skins = await SkinModel.find().sort({ createdAt: 1 }).lean();
     return res.json({ success: true, data: skins });
